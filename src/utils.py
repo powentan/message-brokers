@@ -8,6 +8,7 @@ MQ_USER = os.getenv('MQ_USER', '')
 MQ_PASSWORD = os.getenv('MQ_PASSWORD', '')
 MQ_QUEUE = os.getenv('MQ_QUEUE', 'test_queue')
 
+
 class QueueCommunication:
     def __init__(self, host: str, port: str, queue_name: str):
         self.host = host
