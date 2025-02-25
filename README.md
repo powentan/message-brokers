@@ -1,5 +1,21 @@
 # Message Brokers
 
+## How to Apply Pre-Commit
+- install uv
+```
+# On macOS and Linux.
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+- update project env
+```
+uv sync
+```
+- run pre-commit
+```
+uvx pre-commit run --all-files
+```
+
+
 ## How to Run
 - build
 ```
